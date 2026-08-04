@@ -6,6 +6,7 @@
 /* nav bar */
 
 .nav{
+    height: 25vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,11 +41,10 @@
  /* first page  */
 
  .first-page{
-    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 100vh; 
+    height: 95vh; 
 }
 .title{
    height: 50vh;
@@ -107,7 +107,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 300px;
-    height: 40vh;
+    height: 30vh;
     font-family: "Inter", sans-serif;
 }
 .sec-title span{
@@ -162,7 +162,7 @@
 /* third image */
 
 .third-page{
-    height: 80vh;
+    height: 85vh;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -224,14 +224,12 @@
 
 .fourth-page{
     font-family: "Inter", sans-serif;
-    
 }
 
 .f-top{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap; 
-    margin-top: 60px;
 } 
 .f-content{
     height: 132px;
@@ -241,21 +239,6 @@
     font-weight: bold;
     font-family: "Inter", sans-serif;
 }
-/* .sec-icon {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    gap: 16px; 
-}
-.l-icon{
-    height: 54px;
-    width: 54px;
-    border: solid 1px  #2D3134;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 .f-box{
     display: flex;
     justify-content: center;
@@ -301,6 +284,7 @@
     width: 100px;
     border-radius: 46px;
     color: #2D3134;
+    border: solid 1px #2D3134;
 }
 #b-o{
     background-color: #2D3134;
@@ -310,11 +294,11 @@
 /* fifth page*/
 
 .fifth-page{
-    height: 130vh;
+    height: 125vh;
 }
 .destination{
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
     margin-top: 30px;
 }
 .destination span{
@@ -327,6 +311,7 @@
     color: #5B5F62;
 }
 .desti-box{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     gap: 14px;
@@ -367,7 +352,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 80vh;
+    height: 70vh;
 }
 .left-img img{
     height: 450px;
@@ -404,13 +389,14 @@
     height: 60vh;
     width: 80%;
     margin-top: 50px;
-    margin-left: 150px; 
+    margin-left: 150px;
     background-color: #FFD482;
     border-radius: 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
     line-height: 50px;
 }
 .s-text{
@@ -434,22 +420,29 @@
 }
 .search{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    /* gap: 120px; */
     background-color: #FFFFFF;
     border: solid 1px #FFFFFF;
     border-radius: 15px;
     height: 50px;
     width: 400px;
-    margin-left: 340px; 
 }
-
+.se-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 input[type=email]{
     background: none;
     border: none;   
 }
+.se-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .se-img img{
-    float: left;
     border: solid 1px #F66F4D;
     background-color: #F66F4D;
     border-radius: 12px;
@@ -504,6 +497,7 @@ input[type=email]{
 /* nav bar */
 
 .nav{
+    height: 45vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -526,14 +520,10 @@ input[type=email]{
 /* first page */
 
 .first-page{
-    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
-    /* height: 100vh; */
 }
-
 .title{
    height: 20vh;
 }
@@ -543,8 +533,7 @@ input[type=email]{
     font-size: 40px;
     color: #2D3134;
     height: 208px;
-    width: 280px;
-   
+    width: 280px;  
 }
 .para p{
     font-size: 18px;
@@ -598,8 +587,7 @@ input[type=email]{
     display: flex;
     justify-content: center;
     gap: 1px;
-    height: 30vh;
-    margin-top: 30px;
+    height: 20vh;
     font-family: "Inter", sans-serif;
 }
 .sec-title span{
@@ -620,10 +608,6 @@ input[type=email]{
     width: 54px;
     border: solid 1px  #2D3134;
     border-radius: 50%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; */
 }
 .category-img{
     display: flex;
@@ -642,10 +626,10 @@ input[type=email]{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 100vh;
+    height: 150vh;
 }
 .left-img img{
-    height: 280px;
+    height: 290px;
     width: 280px;
 }
 .o-title{
@@ -670,11 +654,11 @@ input[type=email]{
 }
 .journey{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 60px;
+    height: 60vh;
     gap: 30px; 
 }
 .k{
@@ -696,7 +680,6 @@ input[type=email]{
 
 /* fourth page */
 .fourth-page{
-    margin-top: 250px;
     font-family: "Inter", sans-serif;
 }
 .f-top{
@@ -721,7 +704,6 @@ input[type=email]{
     border: solid 1px  #2D3134;
     border-radius: 50%;
 }
-
 .f-box{
     display: flex;
     justify-content: center;
@@ -760,7 +742,7 @@ input[type=email]{
     font-size: 14px;
     height: 37px;
     width: 80px;
-    border: none;
+    border: solid 1px #2D3134;
     border-radius: 46px;
     color: #2D3134;
 }
@@ -867,10 +849,9 @@ input[type=email]{
 
 /* seventh page */
 
-.seventh-page{
-    height: 30vh;
+ .seventh-page{
+    height: 25vh;
     width: 90%;
-    margin-top: 40px;
     line-height: 30px;
     margin-left: 20px;
     background-color: #FFD482;
@@ -879,8 +860,8 @@ input[type=email]{
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-}
- .s-text{
+} 
+.s-text{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -892,40 +873,30 @@ input[type=email]{
     width: 280px;
     display: flex;
     justify-content: center;
-
 }
 .text-para p{
     font-size: 16px;
     color: #5B5F62;
     width: 200px;
 }
-.search{
+.search{   
     display: flex;
     justify-content: space-around;
-    align-items: center;
     background-color: #FFFFFF;
     border: solid 1px #FFFFFF;
     border-radius: 15px;
     height: 30px;
-    width: 230px;
-    margin-left: 50px;
+    width: 90%;
 }
-
-input[type=email]{
-    background: none;
-    border: none;
-}
-
 .se-img img{
     border: solid 1px #F66F4D;
     background-color: #F66F4D;
     border-radius: 12px;
-    height: 18px;
-    width: 18px;
+    height: 20px;
+    width: 20px;
 }
 
 /* footer */
-
 
 .footer{
     height: 100vh;
@@ -954,8 +925,7 @@ input[type=email]{
 }
 .foot-two{
     text-align: center;
-    margin-top: 20px;
-    line-height: 30px;
+    margin-top: 10px;
 }
 .foot-two span{
     color: #2D3134;
