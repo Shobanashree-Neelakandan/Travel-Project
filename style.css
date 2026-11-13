@@ -499,7 +499,7 @@ input[type=email]{
 /* media query */
 
 
-@media (max-width: 780px) {
+@media (min-width: 300px) and (max-width: 780px) {
 
 /* nav bar */
 
